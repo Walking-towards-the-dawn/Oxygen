@@ -645,6 +645,7 @@ input:checked + .slider-decor:before {
 }
 
 .slider-container {
+	position: relative;
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -664,6 +665,8 @@ input:checked + .slider-decor:before {
 }
 
 .slide.active {
+	margin: 0 auto;
+	max-width: 800px;
 	display: block;
 }
 
